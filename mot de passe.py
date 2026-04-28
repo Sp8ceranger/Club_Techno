@@ -25,7 +25,6 @@ def on_logo_pressed():
 input.on_logo_event(TouchButtonEvent.PRESSED, on_logo_pressed)
 
 ENTREE = ""
-MOT_DE_PASSE = ""
 MOT_DE_PASSE = "AABL"
 
 def on_forever():
