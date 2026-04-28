@@ -22,8 +22,6 @@ def on_button_pressed_ab():
             music.PlaybackMode.UNTIL_DONE)
         music.play(music.tone_playable(831, music.beat(BeatFraction.WHOLE)),
             music.PlaybackMode.UNTIL_DONE)
-    else:
-        pass
     basic.pause(500)
     basic.clear_screen()
     ENTREE = ""
