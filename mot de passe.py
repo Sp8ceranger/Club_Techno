@@ -1,7 +1,7 @@
-#
 # Generate code using makcode : https://makecode.microbit.org
 # Created by Sp8ceranger (https://github.com/Sp8ceranger) using makcode (https://makecode.microbit.org)
-#
+# mot de passe.hex is available here: https://github.com/Sp8ceranger/Spaceranger/edit/main/mot%20de%20passe.hex
+
 def on_button_pressed_a():
     global ENTREE
     ENTREE = "" + ENTREE + "A"
