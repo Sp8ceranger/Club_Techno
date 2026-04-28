@@ -42,11 +42,12 @@ input.on_logo_event(TouchButtonEvent.PRESSED, on_logo_pressed)
 ENTREE = ""
 ACCEPTED = False
 MOT_DE_PASSE = ""
-MOT_DE_PASSE = "AABL" # buton A (A) + buton B (B) + Logo (L)
+MOT_DE_PASSE = "AABL" # password : buton A (A) + buton B (B) + Logo (L)
 ACCEPTED = False
 music.set_volume(127)
 
 def on_forever():
     if ACCEPTED == True:
+        # when the password is valid
         pass
 basic.forever(on_forever)
