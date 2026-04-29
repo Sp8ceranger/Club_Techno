@@ -3,7 +3,7 @@ NOMBRE = 0
 def on_gesture_shake():
     global NOMBRE
     NOMBRE = randint(0, 2)
-    if NOMBRE == 1:
+    if NOMBRE == 0:
         basic.show_leds("""
             . . . . .
             . # # # .
@@ -11,7 +11,7 @@ def on_gesture_shake():
             . # # # .
             . . . . .
             """)
-    elif NOMBRE == 2:
+    elif NOMBRE == 1:
         basic.show_leds("""
             # # . # #
             # # . # #
@@ -19,7 +19,7 @@ def on_gesture_shake():
             . # . # .
             # . . . #
             """)
-    elif NOMBRE == 3:
+    elif NOMBRE == 2:
         basic.show_leds("""
             . # # # .
             # . . . #
